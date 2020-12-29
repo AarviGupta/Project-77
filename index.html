@@ -1,0 +1,58 @@
+<html>
+    <body>
+        <h1>Console Web Project</h1>
+        <p>Created by Microsoft, Visual Studio is an integrated development environment that is used to develop computer programs for Windows. Visual studio can also be used for developing web sites, web applications, and web services.</p>
+        <p>Console app is about concat,addiion,subtraction,multiplication,division and many more functions.</p>
+
+        <h1 id="heading">My first console page</h1>
+        <h4 id="firstname"></h4>
+        <h4 id="lastname"></h4>
+        <h4 id="fullname"></h4>
+        <h4 id="numbers1"></h4>
+        <h4 id="numbers2"></h4>
+        <h4 id="addition"></h4>
+        <h4 id="subtraction"></h4>
+        <h4 id="multiplication"></h4>
+        <h4 id="division"></h4>
+    </body>
+    <script>
+        var heading=document.getElementById("heading").innerHTML;
+console.log(heading);
+var first_name="Aarvi";
+console.log(first_name);
+document.getElementById("firstname").innerHTML=first_name;
+
+var last_name="Gupta";
+console.log(last_name);
+document.getElementById("lastname").innerHTML=last_name;
+
+var full_name=first_name.concat(last_name);
+console.log(full_name);
+document.getElementById("fullname").innerHTML=full_name;
+
+var number1=(20);
+console.log(number1);
+document.getElementById("numbers1").innerHTML=number1;
+
+var number2=(100);
+console.log(number2);
+document.getElementById("numbers2").innerHTML=number2;
+
+var add=(number1+number2);
+console.log(add);
+document.getElementById("addition").innerHTML=add;
+
+var sub=(number2-number1);
+console.log(sub);
+document.getElementById("subtraction").innerHTML=sub;
+
+var mul=(number1 * number2);
+console.log(mul);
+document.getElementById("multiplication").innerHTML=mul;
+
+var div=(number1 / number2);
+console.log(div);
+document.getElementById("division").innerHTML=div;
+
+    </script>
+</html>
